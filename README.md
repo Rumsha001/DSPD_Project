@@ -1,7 +1,7 @@
 # DSPD_Project
 
-Colab Link: https://colab.research.google.com/drive/15v4FWvvAofVX_T-TupY1vBlHKKe5-5Q6?usp=sharing 
-Stage 2 Report Link: https://github.com/Rumsha001/DSPD_Project/blob/main/docs/WeatherForecastingApplication-Stage2.pdf 
+- Colab Link: https://colab.research.google.com/drive/15v4FWvvAofVX_T-TupY1vBlHKKe5-5Q6?usp=sharing 
+- Stage 2 Report Link: https://github.com/Rumsha001/DSPD_Project/blob/main/docs/WeatherForecastingApplication-Stage2.pdf 
 
 ## Weather Forecasting Application
 Weather forecasting is the application of scientific techniques and technology to predict the conditions of the atmosphere at a certain location and time. Weather Forecasting in old time is carried out by hand, using changes in barometric pressure, current weather conditions, and sky condition or cloud cover, weather forecasting now relies on computer-based models that take many atmospheric factors into accounting now relies on computer-based models that take many atmospheric factors into account. 
