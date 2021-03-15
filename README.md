@@ -53,7 +53,7 @@ Currently, forecast analysis that is done using Prophet is only dockerized.
 
 ## Build and Run The Docker
 
-1) Download the app directory.
+1) Download the DockerApp directory.
 2) cd to the downloaded directory.
 3) run command [docker build -t myimage . ]
 4) run the container[docker run -it --name mycontainer500 --rm -p 80:80 myimage] 
