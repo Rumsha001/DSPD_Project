@@ -50,3 +50,13 @@ Through which, using Fast API’s endpoint will be able to receive date for whic
 Docker is an open platform for developing, shipping, and running applications. Dockerization enables you to separate your applications from your infrastructure so you can deliver software quickly.
 As per the requirement, a docker image has been created in which all the necessary libraries are mentioned to be installed under the dockerfile.
 Currently, forecast analysis that is done using Prophet is only dockerized.
+
+## Build and Run The Docker
+
+1) Download the app directory.
+2) cd to the downloaded directory.
+3) run command [docker build -t myimage . ]
+4) run the container[docker run -it --name mycontainer500 --rm -p 80:80 myimage] 
+5) http://localhost/prophet/2021-3-15 #pass the date in YYYY-MM-DD format for the prediction.
+
+
