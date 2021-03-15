@@ -55,8 +55,10 @@ Currently, forecast analysis that is done using Prophet is only dockerized.
 
 1) Download the DockerApp directory.
 2) cd to the downloaded directory.
-3) run command [docker build -t myimage . ]
-4) run the container[docker run -it --name mycontainer500 --rm -p 80:80 myimage] 
-5) http://localhost/prophet/2021-3-15 #pass the date in YYYY-MM-DD format for the prediction.
+3) download the trained model https://drive.google.com/file/d/1r8I6LwvsthiaSEc4glTzDf3v6apcYDSO/view?usp=sharing
+4) place the downloaded model file under the DockerApp/app directory
+5) run command [docker build -t myimage . ]
+6) run the container[docker run -it --name mycontainer500 --rm -p 80:80 myimage] 
+7) http://localhost/prophet/2021-3-15 #pass the date in YYYY-MM-DD format for the prediction.
 
 
