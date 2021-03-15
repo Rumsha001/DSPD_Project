@@ -19,6 +19,24 @@ Dataset consists of following files:
 
 ## Models
 
+### 1)	Random Forest:
+A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+Analysis: The difference between the actual and predicted values is the very minor, so this model could be used for the out of sample predictions.
+
+###  2)	Decision Tree:
+Decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed.
+Analysis: This model mapped the predicted values accurately and hence the difference between actual and predicted values was almost equal to zero. The model seems to be prefect to predict the out of sample values, but this may have an overtraining issue as this is perfectly mapping the training data.
+
+### Time-Series Models
+### 3)	Prophet: Automatic Forecasting Procedure
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+
+
+### 4)	Long Short-Term Memory
+Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture used in the field of deep learning. An LSTM is generally used favorably for time-series data (such as our precipitation datasets) as it is able to ‘remember’ long-term dependencies/information from a feature called cell state. This cell state runs across the networks and passes down (or up) information such that earlier information from a sequence, for instance, could influence prediction of later input. This passing of information is crucial for time-series weather data where each input is dependent on other input from varying time points. The information that is stored, removed, modified, and passed around is controlled by gates. 
+
+To perform weather forecasting in a timely and efficient manner, it is critical to understand the model and examine it in different ways to achieve highest accuracy without overfitting the model. Hence, in order to improve the predicted outcome, further analysis will be done.
+
 ## API Setup
 
 ## Dockerization
