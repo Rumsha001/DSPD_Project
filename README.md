@@ -13,9 +13,9 @@ Through their API, last 11 years historical data has been fetched.
 After which we have converted the JSON response into .csv format, segregating it into each year’s file.
 All of these files have been stored in Amazon S3 Bucket. By using boto3, the csv data was called from S3 and converted it into our dataset. 
 Dataset consists of following files:
-ѻ	Elements: date, time, temperature, feels like, humidity, dew point, wind speed, wind direction etc.
-ѻ	Format: .csv format.
-ѻ	Date Range: 2010-2020
+  Elements: date, time, temperature, feels like, humidity, dew point, wind speed, wind direction etc.
+  Format: .csv format.
+  Date Range: 2010-2020
 
 ## Models
 
@@ -38,5 +38,12 @@ Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) ar
 To perform weather forecasting in a timely and efficient manner, it is critical to understand the model and examine it in different ways to achieve highest accuracy without overfitting the model. Hence, in order to improve the predicted outcome, further analysis will be done.
 
 ## API Setup
+FastAPI is a modern, fast (high-performance), web framework for building APIs with Python.
+It is used in this project as the model is exported and wrapped around Fast API.
+Through which, using Fast API’s endpoint will be able to receive date for which prediction is required and will return output to the user.
+
 
 ## Dockerization
+Docker is an open platform for developing, shipping, and running applications. Dockerization enables you to separate your applications from your infrastructure so you can deliver software quickly.
+As per the requirement, a docker image has been created in which all the necessary libraries are mentioned to be installed under the dockerfile.
+Currently, forecast analysis that is done using Prophet is only dockerized.
