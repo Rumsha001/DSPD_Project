@@ -1,7 +1,9 @@
 # DSPD_Project
 
-Weather forecasting is the application of scientific techniques and technology to predict the conditions of the atmosphere at a certain location and time. Weather Forecasting in old time is carried out by hand, using changes in barometric pressure, current weather conditions, and sky condition or cloud cover, weather forecasting now relies on computer-based models that take many atmospheric factors into accounting now relies on computer-based models that take many atmospheric factors into account. 
+Colab Link: https://colab.research.google.com/drive/15v4FWvvAofVX_T-TupY1vBlHKKe5-5Q6?usp=sharing 
 
+## Weather Forecasting Application
+Weather forecasting is the application of scientific techniques and technology to predict the conditions of the atmosphere at a certain location and time. Weather Forecasting in old time is carried out by hand, using changes in barometric pressure, current weather conditions, and sky condition or cloud cover, weather forecasting now relies on computer-based models that take many atmospheric factors into accounting now relies on computer-based models that take many atmospheric factors into account. 
 Our main goal is to analyze how the different machine learning techniques will perform in the forecasting of weather combining time series with the neural network.
 
 ## DATA SET
