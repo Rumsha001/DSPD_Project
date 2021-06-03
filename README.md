@@ -68,19 +68,19 @@ Currently, forecast analysis that is done using Prophet is only dockerized.
 6) run the container[docker run -it --name mycontainer500 --rm -p 80:80 myimage] 
 7) http://localhost/prophet/2021-3-15 #pass the date in YYYY-MM-DD format for the prediction.
 
-##Quantization on LSTM
+## Quantization on LSTM
 
 Quantization is a process of approximating a neural network that uses floating-point numbers by a neural network of low bit width numbers. This technique helps reduce both the memory requirement and computational cost of using neural networks at the cost of modest decrease in accuracy.
 Link to the Colab file: 
 https://colab.research.google.com/drive/1J_1oBUODaHoh1T4ozXqqncFCDA6X0Znt?usp=sharing 
 
-##Ensembling
+## Ensembling
 In weather forecast, we ensemble set of forecasts that present the range of future weather possibilities. Multiple simulations are run, each with a slight variation in model of its initial conditions and with slightly perturbed weather models. These variations represent the inevitable uncertainty in the initial conditions and approximations in the models. They produce a range of possible weather conditions.
 
 Link to Ensembling file:
 https://colab.research.google.com/drive/1wCjJL6zS8yOWJtPt-oujAl0IU0N9B4OC?usp=sharing 
 
-##AIRFLOW IMPLEMENTATION
+## AIRFLOW IMPLEMENTATION
 
 Airflow is a platform to programmatically author, schedule and monitor workflows. It is used to author workflows as Directed Acyclic Graphs (DAGs) of tasks. The Airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
 When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative.
